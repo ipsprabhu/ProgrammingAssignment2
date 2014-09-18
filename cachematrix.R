@@ -1,7 +1,7 @@
 # makeCacheMatrix and cacheSolve are two functions used to compute the inverse
 # of a matrix. These functions uses the advantage of lexical scoping of R. 
 # makeCacheMatrix passes a list of 4 functions to cacheSolve fuction.
-# The 4 functions passes the matrix, real data, get the inverse and stores.
+# The 4 functions passes the matrix (real data), gets the inverse and stores it.
 # cacheSolve function computes the inverse and passes the inverse to 
 # makeCacheMatrix function. The cacheSolve function also retrieves the cached
 # inverse matrix.
